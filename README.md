@@ -1,4 +1,4 @@
-# ⚡ AMP Spectre CSS Framework
+# Newslettership ⚡ 
 
 This is an [AMP](https://www.ampproject.org) version of the lightweight [Spectre.css](https://picturepan2.github.io/spectre/) framework by Yan Zhu. It complies with the [AMP CSS spec](https://www.ampproject.org/docs/design/responsive/style_pages).
 
@@ -8,7 +8,7 @@ Insert the contents of `spectre.min.css` and optionally `spectre-icons.min.css` 
 
 ## Demo
 
-Check out the [demo page](https://niutech.github.io/amp-spectre/) as a valid AMP HTML document.
+Check out the [demo page](https://maliek2.github.io/newsletter/) as a valid AMP HTML document.
 
 ## Differences from Spectre.css
 
