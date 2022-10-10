@@ -8,7 +8,7 @@ Insert the contents of `spectre.min.css` and optionally `spectre-icons.min.css` 
 
 ## Demo
 
-Check out the [demo page](https://newslettership.vercel.app) as a valid AMP HTML document.
+Check out the [demo page](https://www.google.co.za/amp/newslettership.vercel.app/) as a valid AMP HTML document.
 
 ## Differences from Spectre.css
 
