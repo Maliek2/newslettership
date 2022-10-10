@@ -1,4 +1,4 @@
-package online.adball.newslettership;
+package app.vercel.newslettership;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
