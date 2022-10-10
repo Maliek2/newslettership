@@ -2,9 +2,9 @@ package app.vercel.newslettership;
 
 import android.util.Log;
 
-public class JitpackDemo {
+public class Newslettership{
 
     public static void logEnvironment() {
-        Log.d(JitpackDemo.class.toString(), BuildConfig.ENV);
+        Log.d(NewsApp.class.toString(), BuildConfig.ENV);
     }
 }
