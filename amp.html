@@ -5,6 +5,7 @@
   <title>Maliek News - Accelerate Page</title>
   <link rel="canonical" href="amp.html" >
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta name="amp-consent-blocking" content="amp-analytics,amp-ad" />
   <link href='https://fonts.googleapis.com/css?family=Georgia|Open+Sans|Roboto' rel='stylesheet' type='text/css'>
   <style amp-custom>
     body {
@@ -149,9 +150,11 @@
   <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
   <script async custom-element="amp-sticky-ad" src="https://cdn.ampproject.org/v0/amp-sticky-ad-0.1.js"></script>
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
+ <script async src="https://cdn.ampproject.org/v0.js"></script>
 </head>
 <body>
+<amp-analytics data-block-on-consent="_till_responded" type="googleanalytics">
+</amp-analytics>
   <header>
     <div class="brand-logo">
       Newsletter
@@ -292,5 +295,21 @@
   <footer>
     <div class="brand-logo">Newsletter</div>
   </footer>
+<amp-consent layout="nodisplay" id="consent-element">
+  <script type="application/json">
+    {
+      "consentInstanceId": xxx
+      "checkConsentHref": "https://example.com/api/show-consent"
+      "policy": {
+        "default": {
+          "timeout": {
+            "seconds": 5,
+            "fallbackAction": "reject"
+          }
+        }
+      }
+    }
+  </script>
+</amp-consent>
 </body>
 </html>
